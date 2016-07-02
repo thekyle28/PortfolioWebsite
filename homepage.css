@@ -1,0 +1,158 @@
+body {
+    font-family: arial;
+    font-size: 0.9em;
+    background-color: #E9EAED;
+    background-image: url("Cubes-Grey-Seamless-Pattern-For-Website-Background.jpg");
+    background-repeat: repeat;
+    margin: 0px;
+}
+
+h1#title{
+    position:relative;
+    margin-left:8%;
+    color: white;
+}
+
+#profileIcon2, #educationIcon2,#experienceIcon2,#projectsIcon2, #projectsIcon3, #projectsIcon4, #pro,#awardsIcon{
+    margin-left: 20px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+#profileIcon1,#educationIcon1,#experienceIcon1,#projectsIcon1{
+    color: white;
+}
+
+#cyclerBrumHack img, #cyclerAwards img, #cyclerEducation img, #cyclerExperience img{position:absolute;z-index:1;
+    height:300px ;width: 300px;
+    border: 2px black solid;
+    margin-top: 35px;
+}
+#cyclerBrumHack img.active, #cyclerAwards img.active, #cyclerEducation img.active, #cyclerExperience img.active{z-index:3}
+
+#topSection{
+    padding: 70px 0px;
+    margin: 0em;
+    width: 100%;
+    height: 100%;
+    background: #1B3586;
+
+}
+
+#awardsTitle{
+    text-align: center;
+    position: relative;
+}
+
+#cyclerBrumHack, #cyclerAwards, #cyclerEducation, #cyclerExperience{
+    position:absolute;
+    margin-left: 7%;
+    height:25%;
+    width:25%;
+}
+
+img#profile{
+    position: fixed;
+    top: 4px;
+    left: calc(50% - 76.59px);
+    z-index: 1;
+    border: 1px solid white;
+}
+
+#menu{
+    position: relative;
+    text-align: center;
+    z-index: 3;
+    width: 100%;
+    background-color:#102D6B;
+}
+
+.headers{
+    color: #2142A2;
+    text-align: center;
+}
+
+.header{
+    display: inline-block;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+#main{
+    position: relative;
+    z-index: 2;
+    padding: 10px;
+    margin-bottom: 50px;
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    background: whitesmoke;
+}
+
+#profileText{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#profileHeader{
+
+}
+.menuSection{
+    display: inline-block;
+    padding-left: 10px;
+    /*allows for the background colour change to fade in and out*/
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+    -ms-transition: background 0.5s linear;
+    -o-transition: background 0.5s linear;
+    transition: background 0.5s linear;
+}
+.menuSection:hover{
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+.mainContent{
+    margin-left: 40%;
+    margin-right: 5%;
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color: white;
+    align-content: center;
+    
+}
+
+#background{
+    background-image: url("Cubes-Grey-Seamless-Pattern-For-Website-Background.jpg");
+    background-repeat: repeat;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+}
+
+.mainContentText{
+    margin: 20px;
+}
+
+#bottomSection{
+    background: #0E3A65;
+    padding-top: 3px;
+    width:100%;
+    bottom: 0px;
+    position: fixed;
+    z-index: 4;
+    text-align: center;
+    display: inline-block;
+}
+
+.social{
+    height: 40px;
+    width: 40px;
+}
+
+@media only screen and (min-width: 600px) {
+
+
+}
